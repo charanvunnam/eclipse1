@@ -1,11 +1,21 @@
 package github;
 
-public class github {
-	public static void main(String args[])
-	{
-		System.out.println("winter is coming");
-		System.out.println("charan");
-		System.out.println("jyothi");
-	}
 
-}
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class github {
+	
+	public void githubmethod() throws InterruptedException
+	{
+		
+	System.setProperty("webdriver.chrome.driver","C:/Users/hp/Desktop/new/chromedriver.exe");
+	 WebDriver driver = new ChromeDriver();
+	 driver.get("https//:www.facebook.com");
+	 Thread.sleep(1000);
+	 driver.close();
+	 driver.quit();
+	}
+	}
+	
