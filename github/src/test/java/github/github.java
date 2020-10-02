@@ -15,6 +15,7 @@ public class github {
 	 WebDriver driver = new ChromeDriver();
 	 driver.get("https://www.facebook.com");
 	 Thread.sleep(1000);
+	 System.out.println("completed");
 	 driver.close();
 	 driver.quit();
 
