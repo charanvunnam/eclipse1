@@ -16,6 +16,7 @@ public class github {
 	 driver.get("https://www.facebook.com");
 	 Thread.sleep(1000);
 	 System.out.println("completed successfully by me");
+	 System.out.println("email is triggered successfully");
 	 driver.close();
 	 driver.quit();
 
