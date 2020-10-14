@@ -44,7 +44,7 @@ public class github {
 	 test.pass("successfully opened");
 	 driver.close();
 	 driver.quit();
-	 test.info("successfully completed the testcase");
+	 test.info("successfully completed the testcase1");
 	 extent.flush();
 	}
 }	
