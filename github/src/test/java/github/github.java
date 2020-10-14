@@ -21,7 +21,7 @@ public class github {
 	@BeforeTest
 	public void starttest() throws InterruptedException
 	{
-		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("C:\\Users\\Administrator\\Desktop\\extentreport");
+		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("C:\\Users\\Administrator\\Desktop\\extentreport\\extent.html");
 		 extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Administrator\\Desktop\\chromedriver\\chromedriver.exe");
