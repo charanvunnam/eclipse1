@@ -24,7 +24,7 @@ public class github {
 		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("C:\\Users\\hp\\git\\eclipse1\\github\\target\\extendreport\\extent.html");
 		 extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\hp\\Desktop\\ec-new\\Selenium2\\src\\test\\resources\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Administrator\\Desktop\\chromedriver\\chromedriver.exe");
 		 driver = new ChromeDriver();
 	}
 	
