@@ -44,7 +44,7 @@ public class github {
 	 test.pass("successfully opened");
 	 driver.close();
 	 driver.quit();
-	 test.info("successfully completed the testcase1 in aws EC2");
+	 test.info("successfully completed the testcase1 in aws EC2 by extent email");
 	 extent.flush();
 	}
 }	
