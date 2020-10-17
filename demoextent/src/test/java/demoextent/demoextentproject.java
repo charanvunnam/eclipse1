@@ -41,7 +41,7 @@ public class demoextentproject {
 	 test.pass("successfully opened");
 	 driver.close();
 	 driver.quit();
-	 test.info("successfully completed the testcase1 in aws EC2 by extent email notification");
+	 test.info("successfully completed testcase1 in aws EC2 by extent email notification");
 	 extent.flush();
 	 
 	}
