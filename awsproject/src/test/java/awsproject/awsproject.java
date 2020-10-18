@@ -17,11 +17,11 @@ public class awsproject {
 	@BeforeTest
 	public void starttest() throws InterruptedException
 	{
-		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+""+"\\extentreport\\extent.html");
+		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("C:\\Users\\hp\\git\\eclipse1\\awsproject\\test-output\\extentreport\\extent.html");
 		 extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Administrator\\Desktop\\chromedriver\\chromedriver.exe");
-		 driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\hp\\Desktop\\new\\chromedriver.exe");
+		 driver = new ChromeDriver();//C:\\Users\\Administrator\\Desktop\\chromedriver\\chromedriver.exe
 	}
 	
 	@Test
