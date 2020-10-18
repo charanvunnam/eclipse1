@@ -39,6 +39,7 @@ public class demoextentproject {
 	 driver.findElement(By.xpath("//button[@class='_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy']")).click();
 	 Thread.sleep(10000);
 	 test.pass("successfully opened");
+	 System.out.println(System.getProperty("user.dir"));
 	 driver.close();
 	 driver.quit();
 	 test.info("successfully completed testcase1 in aws EC2 by extent email notification");
