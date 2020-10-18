@@ -41,7 +41,7 @@ public class awsproject {
 	 driver.close();
 	 driver.quit();
 	 System.out.println(System.getProperty("user.dir"));
-	 test.info("successfully the completed testcase1 in aws EC2 by extent email notification");
+	 test.info("successfully  completed testcase1 in aws EC2 by extent email notification");
 	 extent.flush();
 	 
 }
