@@ -18,7 +18,7 @@ public class demoextentproject {
 	@BeforeTest
 	public void starttest() throws InterruptedException
 	{
-		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+""+"\\extentreports\\extent.html");
+		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("C:\\Users\\hp\\git\\eclipse1\\demoextent\\test-output\\extentreports\\extent.html");
 		 extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\hp\\Desktop\\new\\chromedriver.exe");
