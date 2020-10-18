@@ -17,7 +17,7 @@ public class awsproject {
 	@BeforeTest
 	public void starttest() throws InterruptedException
 	{
-		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("C:\\Users\\Administrator\\Desktop\\extentreport\\extent.html");
+		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+""+"\\extentreport\\extent.html");
 		 extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Administrator\\Desktop\\chromedriver\\chromedriver.exe");
