@@ -20,8 +20,8 @@ public class awsproject {
 		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("C:\\Users\\hp\\git\\eclipse1\\awsproject\\test-output\\extentreport\\extent.html");
 		 extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\hp\\Desktop\\new\\chromedriver.exe");
-		 driver = new ChromeDriver();//C:\\Users\\Administrator\\Desktop\\chromedriver\\chromedriver.exe
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Administrator\\Desktop\\chromedriver\\chromedriver.exe");
+		 driver = new ChromeDriver();
 	}
 	
 	@Test
